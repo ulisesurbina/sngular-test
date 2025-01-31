@@ -13,7 +13,7 @@ Incluye pruebas unitarias con Jest y React Testing Library.
 
 # Instalación
 
-git clone https://github.com/tu-usuario/sngular-test.git
+git clone https://github.com/ulisesurbina/sngular-test
 
 cd sngular-test
 
