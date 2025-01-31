@@ -1,8 +1,34 @@
-# React + Vite
+# Cálculo de Serie Numérica en React con Pruebas Unitarias
+Este proyecto implementa una aplicación en React que permite calcular el término n de una serie numérica basada en la fórmula:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+serie(n)=((2×fibonacci(n−2))×(3×triangular(n−2)))+(7×primo(n−1))
 
-Currently, two official plugins are available:
+Incluye pruebas unitarias con Jest y React Testing Library.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Cálculo de términos de la serie numérica
+✅ Interfaz con un formulario para ingresar n
+✅ Visualización dinámica del resultado
+✅ Componentes modulares en React
+✅ Pruebas unitarias para validar los primeros 10 términos
+
+# Instalación
+
+git clone https://github.com/tu-usuario/sngular-test.git
+
+cd sngular-test
+
+npm install
+
+npm run dev
+
+# Para ejecutar los tests unitarios:
+
+npm test
+
+# Tecnologías Utilizadas
+
+⚛️ React
+🖥️ JavaScript (ES6+)
+🎨 CSS
+🧪 Jest + React Testing Library
+📦 Node.js
